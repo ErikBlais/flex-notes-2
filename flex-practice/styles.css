@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.card{
+    width: 45%;
+    background-color: turquoise;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.card-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
